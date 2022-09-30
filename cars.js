@@ -9,7 +9,7 @@ class Vehicle {
         this.year = year;
     }
 
-    informationLog() {
+    Information() {
         console.log(`Model: ${this.model}, Year: ${this.year}`);
     }
 }
@@ -22,14 +22,14 @@ class Cars extends Vehicle {
         this.doors = doors;
     }
 
-    informationLog() {
-        super.informationLog();
+    Information() {
+        super.Information();
         console.log(`Doors ${this.doors}`);
     }
 }
 
 let bmtw = new Vehicle("a", "b", 1999);
-bmtw.informationLog();
+bmtw.Information();
 
 let bmtw2 = new Cars("c", "d", 1998, 4);
-bmtw2.informationLog();
+bmtw2.Information();
