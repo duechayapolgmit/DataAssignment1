@@ -2,13 +2,13 @@ class BMI {
     height;
     weight;
 
-    constructor(height, weight){
+    constructor(height, weight) {
         this.height = height;
         this.weight = weight;
     }
 
-    calculateBMI(){
-        return this.weight/(this.height**2);
+    calculateBMI() {
+        return this.weight / (this.height ** 2);
     }
 }
 
