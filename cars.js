@@ -1,8 +1,4 @@
 class Vehicle {
-    make;
-    model;
-    year;
-
     constructor(make, model, year) {
         this.make = make;
         this.model = model;
@@ -15,8 +11,6 @@ class Vehicle {
 }
 
 class Cars extends Vehicle {
-    doors;
-
     constructor(make, model, year, doors) {
         super(make, model, year);
         this.doors = doors;
